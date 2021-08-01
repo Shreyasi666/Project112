@@ -1,0 +1,133 @@
+<html>
+  <head>
+    <title>Project110</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+      <h1>Case Study</h1>
+      <hr>
+<ol>
+    <div class="test_img" id="test_img_1">
+<li>
+    <b>Test Image - </b><img src="97e78809-8f0e-452a-917e-d3700f7dba4e.jfif" class="img-responsive" id="im1">
+</li>
+<h5>Output on <b>Microsoft Azure</b> -
+<span id="mic1">A Close Up Of A Bottle</span>
+</h5>
+
+<h5>Output on <b>Mobilenet Model</b> -
+    <span id="mob1">Candle</span>
+    </h5>
+
+<div class="result" id="res1">
+    <h4>Result - </h4>
+    <hr>
+    <h4>Microsoft Azure is more Accurate</h4>
+</div>
+ </div>
+    
+<br><br>
+
+<div class="test_img" id="test_img_2">
+  <li>
+      <b>Test Image - </b><img src="a6c51ed0-aaf5-4f3f-9fa3-b446feea7dff.jfif" class="img-responsive" id="im2">
+  </li>
+  <h5>Output on <b>Microsoft Azure</b> -
+  <span id="mic2">A Close Up Of A Person</span>
+  </h5>
+  
+  <h5>Output on <b>Mobilenet Model</b> -
+      <span id="mob2">Spatula</span>
+      </h5>
+  
+  <div class="result" id="res2">
+      <h4>Result - </h4>
+      <hr>
+      <h4>Mobilenet Model Is More Accurate</h4>
+  </div>
+   </div>
+
+   <br><br>
+
+   <div class="test_img" id="test_img_3">
+    <li>
+        <b>Test Image - </b><img src="870a4767-0b8c-4889-966f-ba636d32b5e1.jfif" class="img-responsive" id="im3">
+    </li>
+    <h5>Output on <b>Microsoft Azure</b> -
+    <span id="mic3">A Close Up Of A Cell Phone</span>
+    </h5>
+     
+    <h5>Output on <b>Mobilenet Model</b> -
+        <span id="mob3">Mobile Phone</span>
+        </h5>
+    
+    <div class="result" id="res3">
+        <h4>Result - </h4>
+        <hr>
+        <h4>Microsoft Azure Is More Accurate</h4>
+    </div>
+     </div>
+        
+    <br><br>
+    
+    <div class="test_img" id="test_img_4">
+      <li>
+          <b>Test Image - </b><img src="980ed1ca-932f-4845-a74d-288342beea0b.jfif" class="img-responsive" id="im4">
+      </li>
+      <h5>Output on <b>Microsoft Azure</b> -
+      <span id="mic4">Pair Of Headphones On A Wooden Table</span>
+      </h5>
+      
+      <h5>Output on <b>Mobilenet Model</b> -
+          <span id="mob4">Water Bottle</span>
+          </h5>
+      
+      <div class="result" id="res4">
+          <h4>Result - </h4>
+          <hr>
+          <h4>Microsoft Azure Is More Accurate</h4>
+      </div>
+       </div>
+
+       <br><br>
+    
+    <div class="test_img" id="test_img_5">
+      <li>
+          <b>Test Image - </b><img src="98d9c996-2bfe-43ac-bbfd-634e1d372df3.jfif" class="img-responsive" id="im5">
+      </li>
+      <h5>Output on <b>Microsoft Azure</b> -
+      <span id="mic5">Glass Bottle Sitting On Top Of A Wooden Table</span>
+      </h5>
+      
+      <h5>Output on <b>Mobilenet Model</b> -
+          <span id="mob5">Soap Dispenser</span>
+          </h5>
+      
+      <div class="result" id="res5">
+          <h4>Result - </h4>
+          <hr>
+          <h4>Mobilenet Model Is More Accurate</h4>
+      </div>
+       </div>
+    </ol>
+
+
+  <div class="mini_result">
+  <p>I have tested 5 images. <b>Mobilenet Model</b> has predicted 2 of them correctly whilst <b>Microsoft Azure</b>
+has predicted 3 of them correctly. <br>
+Therefore according to my case <b>Microsoft Azure</b> is more accurate.
+</p>
+  </div>
+<br>
+<br>
+
+  </body>
+  </html>
